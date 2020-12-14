@@ -1,0 +1,22 @@
+.popup {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  margin: 15% auto;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+}
+
+.popup__close {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.popup__content {
+  padding: 6.5rem 1rem;
+  font-size: 1.5rem;
+  margin: 5rem auto;
+}
